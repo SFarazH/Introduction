@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+  
+  }
+  .header {
+    padding: 20px; 
+    text-align: center; 
+    background: black; 
+    color: white;
+    
+  }
+  
+  .header h1 {
+    font-size: 70px;
+    font-family: 'Rampart One', cursive;
+    padding-bottom: 35px;
+  }
+  
+  .english{
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  height: 60px;
+  
+  }
+  
+  .arabic{
+  font-family: 'Almarai';
+  font-size: 35px;
+  text-align: center;
+  
+  } 
+  .navbar {
+        overflow: hidden;
+        background-color: gainsboro;
+        
+        border-radius: 0;
+        
+        
+  }
+  .navbar a {
+        float: left;
+        display: block;
+        color: midnightblue;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 20px;
+  }
+  /*.navbar a:hover {
+        background-color: #ddd;
+        color: black;
+  }*/
+  
+  .a-header{
+    height: 55px;
+    font-family: 'Shojumaru', cursive;
+    padding-top: 5px;
+    font-size: 42px;
+}
+  .about{
+    background-color: #1abc9c;
+    
+  }
+
+  .atext{
+    size: 30px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: 'Cambo', serif;
+    padding-top: 45px;
+  }
+  .aphoto{
+      padding-top: 0px;
+      padding-bottom: 10px;
+      padding-right: 50px;
+  }
+  
+  .jpg{
+      padding: 5px;
+  }
+  
+
+  /*GAMING*/
+
+  .gaming{
+    
+    background-color: black;
+    padding-bottom: 165px;
+}
+
+  .g-header{
+    color: white;
+    height: 70px;
+    font-size: 36px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 15px;  
+}
+
+  .g-text{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px ;
+    display: flex;
+    align-items: left;
+    padding-bottom: 50px;
+    color: wheat;
+}
+
+  .valo-header{
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+}
+      
+  .vtext{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30px ;
+    color: whitesmoke;
+}  
+  
+  .valo-pic{
+    padding-top: 10px;
+}
+  .codm-header{
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    color: yellowgreen;
+}
+  .codm-text{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30px ;
+    color: whitesmoke;
+}
+          
+  .codm-pic{
+    padding-top: 10px;
+}
+
+
+/*SPOTIFY*/
+.spotify{
+  background-color:#FFC300;
+  padding: 5px;
+}
+.s-header{
+  font-family: 'Monoton', cursive;
+  font-size: 49px;
+  padding-left: 5px;
+  height: 65px;
+}
+
+.spot-text{
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 30px;
+  padding:10px;
+  }
+ 
+
+.spot-link{
+      padding-left: 15px;
+      color: midnightblue;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+
+/*LITERATURE*/
+
+.literature{
+  background-color:#40E0D0;
+  color: black;
+  padding:10px;
+  }
+
+.lit-header{
+    font-family: 'IBM Plex Mono', monospace;
+    height: 65px;
+    font-size: 50px;
+} 
+
+.lit-topic{
+  font-size: 35px;
+  height: 50px;
+  font-family: 'IBM Plex Mono', monospace;
+  padding-left: 15px;
+  }
+
+  .poem{
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    padding-left: 15px;
+    }
+  
+  .poemcred{
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    padding-right: 45px;
+  }  
+
+
+  /**********************COURSE**********************/
+
+  .course{
+    padding: 10px;
+    background-color: wheat;
+    
+    }
+    
+    .c-header{
+    font-size: 45px;
+    height: 55px;
+    padding-left: 10px;
+    font-family: 'Rye', cursive;
+    }
+    
+    .cert-t{
+    font-size: 20px;
+    font-family: 'Bubblegum Sans', cursive;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    
+    }
+    .cert-pdf{
+      display: flex;
+      align-items: center;
+      padding-left: 35px;
+    }  
+
+
+    /******************SOCIALS******************/
+
+    .social{
+      background-color: black;
+    }
+
+    .so-header{
+      padding: 10px;
+      color: red;
+      font-size: 70px;
+     text-align: center;
+      font-family: 'Parisienne', cursive;
+    }
+
+    .social-icons{
+      text-align: center;
+      padding: 10px;
+      padding-bottom: 30px;
+     
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 45px;
+      width: 80px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    
+    .fa:hover {
+          
+      text-decoration: none;
+        color:white;
+    }
+
+    .fa:visited{
+      text-decoration: none;
+      color: white;
+    }
+
+    .fa-spotify:visited{
+      text-decoration: none;
+      color: black;
+      text-decoration-line: none;
+    
+    }
+
+    .fa-spotify:hover{
+      color: black;
+
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-github {
+      background: #444;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    .fa-spotify{
+       background:#11e011;
+       color: black;
+    }
+    
+    .fa-snapchat-ghost {
+      background: #fffc00;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      border: 2px, black;
+    }
+    .fa-reddit {
+      background: #ff5700;
+      color: white;
+    }
+    
+    .mail{
+      color: white;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    .mailt{
+      text-align:center;
+      font-size: 35px;
+      color:white ;
+      padding-top: 20px;
+
+    }
+
+    .fa-envelope{
+      background-color: black;
+      color: royalblue;
+      padding-bottom: -10px;
+      
+    }
+
+
+
+    /*SURPRISE*/
+    .surprise{
+      padding: 5px;
+      background-color: #8E44AD ;
+      padding-bottom: 40px;
+     }
+     
+     .su-header{
+     font-family: 'Faster One', cursive;
+     font-size: 76px;
+     text-align:center ;
+     color: white;
+     }
+     
+     .sup-text{
+     font-family: 'Andada Pro', serif;
+     font-size: 30px;
+     text-align: center;
+     padding-right: 5px;
+     color: white;
+     }
+     
+     .sup-text1{
+     font-family: 'Andada Pro', serif;
+     text-align: center;
+     font-size: 20px;
+     padding-right: 5px;
+     color: white;
+     }
+
+    .vid1{
+       align-items: center;
+       background-color: black;
+       display: flex;
+       justify-content: center;
+       height: 300px;
+       width: 350px;
+       
+      }
+     
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+
+    .footer{
+      background-color: #0FC6F1;
+      color: black;
+      text-align: center;
+      font-size: 20px;
+      
+      padding-top: 10px;
+    }
