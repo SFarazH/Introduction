@@ -225,11 +225,20 @@ a:hover {
     padding-left: 35px;
     
     }
-    .cert-pdf{
+    /*.cert-pdf{
       display: flex;
       align-items: center;
       padding-left: 35px;
-    }  
+    }*/ 
+
+    .cert-link{
+      text-decoration: none;
+      font-family: 'Bubblegum Sans', cursive;
+      font-size: 25px;
+      padding-left: 45px;
+      color: midnightblue;
+
+    }
 
 
     /******************SOCIALS******************/
